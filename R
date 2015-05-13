@@ -1,0 +1,7 @@
+#In the terminal
+sudo nano /etc/apt/sources.list
+#add the line
+deb http://dirichlet.mat.puc.cl//bin/linux/ubuntu trusty/
+#back in the terminal
+sudo apt-get install r-base
+sudo apt-get install r-base-dev
