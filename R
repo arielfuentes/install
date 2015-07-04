@@ -5,5 +5,5 @@ deb http://dirichlet.mat.puc.cl//bin/linux/ubuntu trusty/
 #back in the terminal
 sudo apt-get install r-base
 sudo apt-get install r-base-dev
-#public key
+#public key (secure apt) http://cran.r-project.org/bin/linux/ubuntu/README
 sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E084DAB9
