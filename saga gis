@@ -1,3 +1,8 @@
 sudo add-apt-repository ppa:johanvdw/saga-gis
 sudo apt-get update
 sudo apt-get install saga
+############################################
+#For change in the ppa for SAGA 2.1.4
+sudo add-apt-repository --remove ppa:johanvdw/saga-gis
+sudo apt-get update
+sudo apt-get install saga
